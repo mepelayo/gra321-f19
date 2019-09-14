@@ -1,0 +1,27 @@
+/* Styles for Project 5 */
+
+body {
+    font-family: starling,serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .5 px;
+    line-height: 1.5;
+    padding: 10%;
+}
+
+h1 {
+    color: maroon;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
