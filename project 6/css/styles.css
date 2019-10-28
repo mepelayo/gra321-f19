@@ -28,6 +28,9 @@ h1 {
 
 h2 {
     background-image: url('../img/coffee-beans.jpg');
+    background-position: left bottom;
+    background-size: 1000px 800px;
+    color: white;
     font-weight: 600;
     line-height: 2;
     padding: 1rem;
@@ -47,7 +50,7 @@ img {
 
 .special {
     background-image: url('../img/latte-cactus.jpg');
-    background size: 361px/145px;
+    background-size: 450px 250px;
 }
 
 ul {
