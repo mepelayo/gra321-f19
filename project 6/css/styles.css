@@ -8,7 +8,6 @@ body {
     font-style: normal;
     letter-spacing: .5 px;
     line-height: 1;
-    padding: 10%;
 }
 
 li {list-style: none;
@@ -23,7 +22,7 @@ h1 {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 1rem
+    padding: 1rem;
 }
 
 h2 {
@@ -33,11 +32,13 @@ h2 {
     color: white;
     font-weight: 600;
     line-height: 2;
-    padding: 1rem;
+    padding: 2rem;
+    text-align: center;
 }
 
 h3 {
     font-weight: 400;
+    text-align: center;
 }
 
 h4 {
@@ -51,6 +52,10 @@ img {
 .special {
     background-image: url('../img/latte-cactus.jpg');
     background-size: 450px 250px;
+}
+
+.all {
+    text-align: center;
 }
 
 ul {
