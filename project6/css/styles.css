@@ -10,6 +10,10 @@ body {
     margin: 0rem;
 }
 
+p{
+    font-size: 14pt;
+}
+
 li {
     list-style: none;
 }
@@ -19,12 +23,14 @@ h1 {
     font-family: lust, serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20pt;
     position: relative;
     width: 100%;
     top: 0;
     left: 0;
     padding: 0rem;
     margin: 0rem;
+    text-align: center;
 }
 
 h2 {
@@ -36,11 +42,23 @@ h2 {
     line-height: 2;
     padding: 2rem;
     text-align: center;
+    font-size: 18pt;
 }
 
 h4 {
     font-weight: 400;
     margin: 0rem;
+    font-size: 16pt;
+}
+
+hr {
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#707070;
+    border: 0 none;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 img {
@@ -57,6 +75,9 @@ img {
       position: relative;
 }
 
+.picture {
+    display: none;
+}
 .heading::after {
       content: ' ';
       position: absolute;
@@ -69,6 +90,7 @@ img {
 h3 {
     background: #EDEDED;
     font-weight: 400;
+    font-size: 18pt;
     padding: 1rem;
     position: relative;
     text-align: center;
@@ -77,9 +99,53 @@ h3 {
 
 .special {
     background-image: url('../img/latte-cactus.jpg');
-    background-size: 450px 250px;
+    background-size: 450px 275px;
 }
 
 ul {
     margin-bottom: 2rem;
+}
+   
+@media only screen and (min-width: 800px){
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    
+    .picture {
+        display: block;
+    }
+    
+    h1 {
+        font-size: 22pt;
+        text-align: center;
+    }
+    
+    h2 {
+        background-image: none;
+        color: #707070;
+        font-weight: 600;
+        line-height: 2;
+        padding: 0rem;
+        font-size: 22pt;
+        text-align: justify;
+    }
+
+    h3 {
+        font-size: 22pt;
+    }
+    
+    h4 {
+        font-size: 20pt;
+    }
+    
+    p {
+        font-size: 16pt;
+    }
+    
+    .special {
+        background-image: none;
+    }
 }
